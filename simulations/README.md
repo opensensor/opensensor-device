@@ -1,7 +1,7 @@
 # opensensor-device simulations
 Working example wokwi simulation for prototyping the device software.
 
-*Note:* The rapsberry pi nano w (with wi-fi) just came out and the v1 in wokwi simulation is lacking wifi support so we sub-out for the wokwi-esp32-devkit-v1 in this example.
+*Note:* The rapsberry pi nano w (with wi-fi) just came out and the v1 in wokwi simulation is lacking wifi support in ``wokwi-pi-pico`` so we sub it out for the ``wokwi-esp32-devkit-v1`` in this example.
 
 The example does the following:
 * Reads from a simulated wokwi-ntc-temperature-sensor the assigned attributes converted to an analog voltage.
